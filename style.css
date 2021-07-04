@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 80px;
 }
 .first-container{
     width: 50%;
@@ -30,3 +31,25 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.dream-big{
+    display: flex;
+    padding-right: 150px;
+    text-align: justify;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.second-container{
+    width: 50%;
+}
+.second-container img{
+    width: 80%;
+}
+/* .resume{
+    text-decoration: none;
+    background-image: linear-gradient(#FF6548, #FF9B76);
+    padding: 10px 40px;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+} */
