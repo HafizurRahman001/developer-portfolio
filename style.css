@@ -8,13 +8,13 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flex-container{
     display: flex;
     margin-bottom: 80px;
 }
 .first-container{
     width: 50%;
-    padding: 5%;
+    padding: 4%;
 }
 .first-container img{
     width: 80%;
@@ -45,11 +45,26 @@ section{
 .second-container img{
     width: 80%;
 }
-/* .resume{
-    text-decoration: none;
-    background-image: linear-gradient(#FF6548, #FF9B76);
-    padding: 10px 40px;
-    font-weight: 700;
-    color: white;
-    border-radius: 5px;
-} */
+.box-shadow{
+    box-shadow: 10px 10px 25px gray;
+    width: 40%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 30px;
+}
+.third-container{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom 7% right 101%;
+}
+.heading{
+    margin-top: 0;
+}
+#full-stack-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(#FFA07A, #FF6448) 1; 
+}
+#web-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(#0022FF, #00FEFF) 1;
+}
