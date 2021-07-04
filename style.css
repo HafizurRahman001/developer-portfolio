@@ -68,3 +68,9 @@ h1{
     border-left: 7px solid;
     border-image: linear-gradient(#0022FF, #00FEFF) 1;
 }
+footer p{
+    text-align: center;
+    margin-top: 100px;
+    color: gray;
+    font-size: 20px;
+}
